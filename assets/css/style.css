@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'poppins500', sans-serif;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'youbuy', sans-serif;
+    src: url(../font/Malayalam-MN.ttc);
+}
+@font-face {
+    font-family: 'firago', sans-serif;
+    src: url(../font/FiraGO-Medium.ttf);
+}
+@font-face {
+    font-family: '700popins', sans-serif;
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Regular',sans-serif;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'andada-pro',sans-serif;
+    src: url(../font/AndadaPro-SemiBold.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1188px;
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: 3px underline blue;
+ 
+}
+.heder-wrapper {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+.YOUBUY-li {
+    margin-left: 10px;
+    margin-right: 290px;
+    font-family: 'youbuy', sans-serif;
+    font-weight: 500;
+}
+
+.Home-li {
+    font-family: 'poppins500', sans-serif;
+}
+.about-li {
+    margin: 0px 51px;
+    font-family: 'poppins500', sans-serif;
+}
+
+.blog-li {
+    margin-right: 51px;
+    font-family: 'poppins500', sans-serif;
+}
+.contact-li {
+    font-family: 'poppins500', sans-serif;
+
+}
+.aiqon {
+    margin-left: 369px;
+}
+header {
+    border-bottom: 1px solid blue;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 72px;
+    margin-bottom: 64px;
+    font-family: 'firago', sans-serif;
+}
+h1:hover {
+    text-decoration: 3px underline blue;
+}
+
+.product-content{
+    display: inline-block;
+    width: 333px;
+    padding: 10px;
+    border: 3px solid black;
+}
+.product-wrapper {
+    display: inline-block;
+    border: 3px solid white;
+    width: 335px;
+    margin-right: 58px;
+}
+.section-imig {
+    width: 100%;
+}
+h3 {
+    font-size: 16px;
+    margin: 20px 26px;
+    font-family: '700popins', sans-serif; 
+}
+.index-p {
+    font-size: 14px;
+    margin: 0px 24px 22px 26px;
+}
+button {
+    margin: 23px 0px 52px 210px;
+    border-radius: 4px;
+    padding: 6px 26px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.abput-p:hover {
+    text-decoration:  1px underline blue;
+}
+
+.prodact-discription ul { 
+    list-style-type: disc; 
+   list-style-position: inside;
+   margin-left: 15px;
+}
+
+.prodact-discription ul li {
+    display: list-item;
+}
+    
+.see-more-product {
+    margin: 49px 0px 40px 950px;
+    font-size: 16px;
+    text-decoration-line: underline;
+}
+
+/* about style */
+
+.about-title {
+    font-family: 'andada-pro',sans-serif;
+    color: #7D0000;
+    font-weight: 600;
+    font-size: 40px;
+}
+.about-wrapper {
+    display: inline-block;
+    border: 3px solid white;
+    width: 505px;
+    height: 300px;
+    margin-top: 115px;
+    margin-bottom: 436px;
+    margin-left: 16px;
+}
+.div-adress {
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 86px;
+    margin-left: 170px;
+    font-weight: 400;
+}
+.abput-p {
+    font-size: 25px;
+    font-family: 'andada-pro',sans-serif;
+}
+.abput-p:hover {
+    text-decoration:  1px underline blue;
+}
+.about-img {
+    display: inline-block;
+    margin-bottom: -157px;
+    margin-left: 20px;    
+}
+
+/*contact style */
+ 
+.contact-title {
+    color: #7D0000;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 200px;
+}
+.contact-conteiner {
+    display: inline-block;
+ }
+.contact-wrapper a {
+    display: inherit;
+    padding: 15px 15px;
+    font-size: 27px;
+   
+}
+.contact-wrapper {
+    border: 3px solid white;
+    width: 260px;
+     margin-left: 290px;
+    display: inline-block;
+
+}
+
+.Address-wrapper {
+    border: 3px solid white;
+    width: 360px;
+    margin-left: 252px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 27px;
+}
+.Address-wrapper p {
+    padding: 30px 20px 10px 2px;
+    font-size: 27px;
+}
+
+iframe {
+    display: inline center;
+    margin: 144px 260px 190px 270px;
+    width: 908px;
+}
+ 
+
+
+
+ 
+/* blog style */
+
+h2 {
+    margin: 47px 0px 93px 0px;
+    font-size: 24px;
+    font-family: 'firago', sans-serif;
+}
+h2:hover {
+    text-decoration:  1px underline blue;
+}
+.blog-topic-wrapper {
+    text-align: center;
+    font-size: 18px;
+    margin: 93px 0px 68px 0px;
+    font-family: 'firago', sans-serif;
+}
+.blog-topic-wrapper:hover {
+    text-decoration:  1px underline blue;
+}
+.li-beuty-blog {
+    margin: 0px 65px;
+}
+.li-art-blog {
+    margin: 0px 0px 0px 65px;
+}
+.blog-wrapper {
+    display: inline-block;
+    border: 3px solid white;
+    width: 1200px;
+    margin-bottom: 117px;
+}
+.img-wrapper {
+    display: inline-block;
+}
+.blog-img {
+    width: 230p;
+    height: 230px;
+ }
+.blog-text-box {
+    display: inline-block;
+    background: #E5EBE5;
+    vertical-align: top;
+    width: 840px;
+    font-size: 14px;
+    margin-left: 22px;
+}
+.blog-button {
+    margin: 12px 0px 0px 1010px; 
+    width: 174px;
+    height: 40px; 
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.blog-button:hover {
+    text-decoration:  1px underline blue;
+}
+h4 {
+    display: inline-block;
+    margin: 38px 0px 32px 36px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'firago', sans-serif;
+}
+h4:hover {
+    text-decoration:  1px underline blue;
+}
+.blog-p {
+    margin: 0px 32px 12px 36px;
+    padding-bottom: 40px;
+}
+.blog-p:hover {
+    text-decoration:  1px underline blue;
+}
+
+
+/* profile */
+
+.profile-wrapper {
+    display: inline-block;
+}
+.profile-about {
+    border: 3px solid white;
+    display: inline-block;
+    width: 500px;
+    margin: 169px 0px 96px 206px;
+    vertical-align: top
+}
+.profile-about h3  {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h6 { 
+    display: inline-block;
+    vertical-align: top;
+}
+.about-profil-wrapper {
+    border: 3px solid white;
+    width: 700px;
+    margin: 0px 0px auto 206px;
+}
+.about-profil-wrapper li {
+     display: inherit;
+}
+h5 { 
+    font-size: 24px;
+    border-bottom: 1px solid blue;
+    margin: 0px 590px 20px 22px;
+    text-align: center;    
+    font-family: 'firago', sans-serif;
+}
+.about-li-wrapper {
+    margin-top: 58px;
+}
+.about-li-wrapper li {
+    margin-bottom: 30px;
+}
+.prodact-designer {
+    margin: -40px 0px 0px 200px;
+    font-size: 22px;
+    color: #546ccc;
+    font-family: 'Poppins-Regular',sans-serif;
+}
+.prodact-designer:hover {
+    text-decoration:  3px underline blue;
+}
+.lorem-ipsum {
+    margin-top: 90px;
+    font-size: 30px;
+}
+.lorem-ipsum:hover {
+    text-decoration:  3px underline blue;
+}
+.profile-span {
+    margin: 0px 50px 30px 30px;
+    font-family: '700popins', sans-serif;
+}
+.profile-span:hover {
+    text-decoration:  3px underline blue;
+}
+.profile-a {
+    margin-left: 60px;
+    font-family: 'firago', sans-serif;
+}
+.profile-gender {
+    display: inline-block;
+    margin-left: 60px;
+}
+.profile-gender:hover {
+    text-decoration:  3px underline blue;
+}
+.Edit-information-button {
+    margin-left: 900px;
+    background: #87AC87;
+    border-radius: 10px;
+    width: 265px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'firago', sans-serif;
+}
+.Edit-information-button:hover {
+    text-decoration:  3px underline blue;
+}
